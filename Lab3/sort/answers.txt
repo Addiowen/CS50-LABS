@@ -1,0 +1,33 @@
+sort1 uses: Bubble sort
+
+How do you know?:  When considering the time it takes to sort the sorted50000.txt file for each sort program. Sort1 took
+                    the least time to sort the sorted list. That means sort1 uses Bubble sort as the sorting algorithm.
+
+sort2 uses: Merge sort
+
+How do you know?: When feeding the 3 programs the random50000.txt it took 7.914s for the sort1 program to sort the file.
+                    It took 0.654s for the sort2 program to sort the file. And it took 3.534s for the sort3 program to sort
+                    the file. So considering the time sort2 got the least time. That means sort2 uses the merge sort!
+
+sort3 uses: Selection Sort
+
+How do you know?: When considering the time it takes to sort the sorted50000.txt file for each sort program. Sort3 took
+                    more time than other two sort programs. That means sort3 uses Selection sort as the sorting algorithm.
+
+time ./sort1 random50000.txt
+real 7.914s
+
+time ./sort2 random50000.txt
+real 0.654s
+
+time ./sort3 random50000.txt
+real 3.534s
+
+time ./sort1 sorted50000.txt
+real 0.865s
+
+time ./sort2 sorted50000.txt
+real 1.024s
+
+time ./sort3 sorted50000.txt
+real 3.273s
